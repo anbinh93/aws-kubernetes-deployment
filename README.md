@@ -118,7 +118,7 @@ View the pods
 ```
 kubectl get pods
 ```
-![Alt text](.\images\get_pod.png?raw=true "Title")
+![Alt text](https://github.com/anbinh93/aws-kubernetes-deployment/blob/main/images/get_pod.png)
 
 Assuming the postgres pod name is ```postgresql-77d75d45d5-b46w8```, run the following command to open bash into the pod.
 ```
@@ -163,9 +163,9 @@ kubectl get svc
 kubectl port-forward service/postgresql-service 5433:5432
 ```
 
-![Alt text](.\images\get_svc.png?raw=true "Title")
-![Alt text](.\images\describe_service.png?raw=true "Title")
-![Alt text](.\images\describe_deployment.png?raw=true "Title")
+![Alt text](https://github.com/anbinh93/aws-kubernetes-deployment/blob/main/images/get_svc.png)
+![Alt text](https://github.com/anbinh93/aws-kubernetes-deployment/blob/main/images/describe_service.png)
+![Alt text](https://github.com/anbinh93/aws-kubernetes-deployment/blob/main/images/describe_deployment.png)
 
 
 Now you can use PGAdmin to connect to your database
@@ -188,12 +188,13 @@ You can use Postman to test the API using
 GET http://127.0.0.1:5153/api/reports/user_visits
 ```
 Here is the image result
-![Alt text](.\images\send_success_api.png?raw=true "Title")
+![Alt text](https://github.com/anbinh93/aws-kubernetes-deployment/blob/main/images/send_success_api.png)
 
 #### 3. Check log from Cloudwatch
 
 You can access cloudwatch to watch the logs
 
-![Alt text](.\images\cloudwatch.png?raw=true "Title")
-![Alt text](.\images\log.png?raw=true "Title")
+![Alt text](https://github.com/anbinh93/aws-kubernetes-deployment/blob/main/images/cloudwatch.png)
+![Alt text](https://github.com/anbinh93/aws-kubernetes-deployment/blob/main/images/log.png)
+
 
